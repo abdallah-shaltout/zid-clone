@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Nuxt
+.nuxt/
+.output/
+dist/
+.nitro/
+.cache/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build
+*.local
+
+package-lock.json
+bun.lock
